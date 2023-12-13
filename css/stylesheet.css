@@ -98,13 +98,13 @@ button {
 }
 
 @media (max-width: 768px) {
-    .header .container {
+    .header .navbar {
       flex-direction: column;
       padding-top: 20px;
       text-align: center;
     }
   
-    .boxes .container {
+    .info .quote .counter {
       display: block;
       text-align: center;
     }
