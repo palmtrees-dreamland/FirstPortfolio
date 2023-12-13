@@ -6,40 +6,93 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #222529;
+    /*background-color: #222529;*/
     color: #fff;
     font-family: Roboto , sans-serif;
     /*border: 1px solid red;*/
     
 }
 
-.navbar {
+.navbar { /* there two elements logo and links*/
     /*border: 1px solid green;*/
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 20px;
-    
+    padding: 30px;
+    background-color: #222529;
+    border-bottom: 2px solid rgb(89, 125, 124);
     
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /* list items with no bullets or other mark*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /*Links with no line underneath*/
 }
 
 .logo {
     font-size: 40px;
     font-family: IBM Plex Mono, sans-serif;
     
+    
 }
-.nav {
+
+.nav { /* centre links in navbar*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
 
+}
+
+img {
+    
+    /*border: 1px solid red;*/
+}
+
+
+.header {
+   /* border: 1px solid violet; */
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #222529;
+    
+
+}
+
+.h-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*padding: 20px;*/
+    
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(89, 125, 124);
+    
+}
+
+.info {
+    background-color: #fff;
+}
+
+.quote {
+    background-color: rgb(89, 125, 124);
+}
+
+.counter {
+
+    background-color: #fff;
 }
