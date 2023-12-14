@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 * {
-    box-sizing: border-box;
+    /* TODO learn about box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; to layout content*/
     /*background-color: #222529;*/
     color: #fff;
     font-family: Roboto , sans-serif;
@@ -71,11 +71,11 @@ img {
     
 }
 
-p {
+.header p {
     text-align: justify;
 }
 
-button {
+.header button {
     font-size: 20px;
     border: none;
     padding: 20px;
@@ -84,21 +84,98 @@ button {
     
 }
 
+/* Arrange mid section */
+
+/*.middle {
+    display: flex;
+    flex-direction: column;
+
+} Try different conatiners instead of uniting all in one */
+
+/* Style info section */
+
 .info {
     background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
 }
+
+.info > div > p {
+    color: #222529;
+}
+
+.info > div > img {
+    width: 150px;
+}
+
+/* Style quote section */
 
 .quote {
     background-color: rgb(89, 125, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+/* switch span view to show each text direction*/
+
+.quote button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.quote button:hover .rtl {
+    display: none;
+}
+
+.quote button:hover .ltr:before {
+    content: "from another point of view";
+}
+
+.quote > p {
+    font-size: 20px;
+}
+
+/* Style counter section */
 
 .counter {
-
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px
+    
 }
 
-@media (max-width: 768px) {
-    .header .navbar {
+.counter > p {
+    color: #222529;
+    
+    
+}
+
+.counter button {
+    background-color: #222529;
+    padding: 10px 50px;
+    border-radius: 5px;
+    
+}
+
+/* Style footer */
+
+footer {
+
+}
+
+/*TODO learn about @media (max-width: 768px) {
+    .class .class {
       flex-direction: column;
       padding-top: 20px;
       text-align: center;
@@ -108,5 +185,5 @@ button {
       display: block;
       text-align: center;
     }
-  }
+  } to make mobile responsive*/
   
