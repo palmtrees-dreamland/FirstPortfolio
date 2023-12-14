@@ -9,6 +9,8 @@
     /*background-color: #222529;*/
     color: #fff;
     font-family: Roboto , sans-serif;
+    padding: 10px;
+
     /*border: 1px solid red;*/
     
 }
@@ -47,20 +49,19 @@ a {
 
 }
 
-img {
-    width: 400px;
-    /*border: 1px solid red;*/
-}
-
-
 .header {
-   /* border: 1px solid violet; */
+    /*border: 1px solid violet;*/ 
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 30px;
     background-color: #222529;
-    
 
+}
+
+.header > div > img {
+    /*border: 1px solid red;*/
+    
 }
 
 .h-text {
@@ -97,18 +98,69 @@ img {
 .info {
     background-color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
     padding-top: 20px;
+    margin: 60px 0;
+    
 }
 
 .info > div > p {
     color: #222529;
 }
 
-.info > div > img {
-    width: 150px;
+/* Try id tag to create hover effect and swap images on mouse over */
+#green-circle {
+    /*border: 1px solid red;*/
+    background: url("http://localhost:5500//images/palmtrees/9.png") no-repeat;
+    background-size: cover; /* Give size id to fit image */
+    width: 200px;
+    height: 200px;
+}
+
+#green-circle:hover {
+    background: url("http://localhost:5500/images/palmtrees/14.png") no-repeat;
+    background-size: cover;
+}
+
+#purple-circle {
+    /*border: 1px solid red;*/
+    background: url("http://localhost:5500//images/palmtrees/11.png") no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#purple-circle:hover {
+    background: url("http://localhost:5500/images/palmtrees/.png") no-repeat;
+    background-size: cover;
+}
+
+#blue-circle {
+    /*border: 1px solid red;*/
+    background: url("http://localhost:5500//images/palmtrees/10.png") no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#blue-circle:hover {
+    background: url("http://localhost:5500/images/palmtrees/.png") no-repeat;
+    background-size: cover;
+}
+
+#pink-circle {
+    /*border: 1px solid red;*/
+    background: url("http://localhost:5500//images/palmtrees/12.png") no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#pink-circle:hover {
+    background: url("http://localhost:5500/images/palmtrees/0.png") no-repeat;
+    background-size: cover;
 }
 
 /* Style quote section */
