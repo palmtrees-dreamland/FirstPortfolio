@@ -91,7 +91,7 @@ a {
     display: flex;
     flex-direction: column;
 
-} Try different conatiners instead of uniting all in one */
+} Try different containers instead of uniting all in one */
 
 /* Style info section */
 
@@ -133,7 +133,7 @@ a {
 }
 
 #purple-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/15.png") no-repeat;
     background-size: cover;
 }
 
@@ -146,7 +146,7 @@ a {
 }
 
 #blue-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/17.png") no-repeat;
     background-size: cover;
 }
 
@@ -159,7 +159,7 @@ a {
 }
 
 #pink-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/0.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/16.png") no-repeat;
     background-size: cover;
 }
 
