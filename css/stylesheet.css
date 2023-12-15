@@ -217,7 +217,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
     gap: 10px
     
 }
@@ -233,6 +233,11 @@ a {
     padding: 10px 50px;
     border-radius: 5px;
     
+}
+
+.counter button:hover {
+    background-color: rgb(89, 125, 124);
+
 }
 
 /* Style footer */
