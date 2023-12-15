@@ -82,7 +82,12 @@ a {
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(89, 125, 124);
-    
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #fff;
+    color: #222529;
 }
 
 /* Arrange mid section */
@@ -104,6 +109,11 @@ a {
     padding-top: 20px;
     margin: 60px 0;
     
+    
+}
+
+.info > div > p > a {
+    color: #222529;
 }
 
 .info > div > p {
@@ -113,53 +123,57 @@ a {
 /* Try id tag to create hover effect and swap images on mouse over */
 #green-circle {
     /*border: 1px solid red;*/
-    background: url("http://localhost:5500//images/palmtrees/9.png") no-repeat;
+    background: url("/images/palmtrees/9.png") no-repeat;
     background-size: cover; /* Give size id to fit image */
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 #green-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/14.png") no-repeat;
+    background: url("/images/palmtrees/14.png") no-repeat;
     background-size: cover;
 }
 
 #purple-circle {
     /*border: 1px solid red;*/
-    background: url("http://localhost:5500//images/palmtrees/11.png") no-repeat;
+    background: url("/images/palmtrees/11.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
+    cursor: not-allowed;
 }
 
 #purple-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/15.png") no-repeat;
+    background: url("/images/palmtrees/15.png") no-repeat;
     background-size: cover;
 }
 
 #blue-circle {
     /*border: 1px solid red;*/
-    background: url("http://localhost:5500//images/palmtrees/10.png") no-repeat;
+    background: url("/images/palmtrees/10.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
+    cursor: not-allowed;
 }
 
 #blue-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/17.png") no-repeat;
+    background: url("/images/palmtrees/17.png") no-repeat;
     background-size: cover;
 }
 
 #pink-circle {
     /*border: 1px solid red;*/
-    background: url("http://localhost:5500//images/palmtrees/12.png") no-repeat;
+    background: url("/images/palmtrees/12.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
+    cursor: not-allowed;
 }
 
 #pink-circle:hover {
-    background: url("http://localhost:5500/images/palmtrees/16.png") no-repeat;
+    background: url("/images/palmtrees/16.png") no-repeat;
     background-size: cover;
 }
 
@@ -181,6 +195,7 @@ a {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .quote button:hover .rtl {
@@ -223,7 +238,12 @@ a {
 /* Style footer */
 
 footer {
+    background-color: #222529;
+    margin: 60px 0;
+}
 
+footer > p {
+    text-align: center;
 }
 
 /*TODO learn about @media (max-width: 768px) {
