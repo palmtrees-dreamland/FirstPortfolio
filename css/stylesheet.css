@@ -123,7 +123,7 @@ a {
 /* Try id tag to create hover effect and swap images on mouse over */
 #green-circle {
     /*border: 1px solid red;*/
-    background: url(/images/palmtrees/9.jpg) no-repeat;
+    background-image: url(../images/palmtrees/9.jpg) ;
     background-size: cover; /* Give size id to fit image */
     width: 200px;
     height: 200px;
@@ -131,7 +131,7 @@ a {
 }
 
 #green-circle:hover {
-    background: url(/images/palmtrees/14.jpg) no-repeat;
+    background-image: url(../images/palmtrees/14.jpg) ;
     background-size: cover;
 }
 
