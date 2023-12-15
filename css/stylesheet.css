@@ -123,7 +123,7 @@ a {
 /* Try id tag to create hover effect and swap images on mouse over */
 #green-circle {
     /*border: 1px solid red;*/
-    background: url("/images/palmtrees/9.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/9.png") no-repeat;
     background-size: cover; /* Give size id to fit image */
     width: 200px;
     height: 200px;
@@ -131,13 +131,13 @@ a {
 }
 
 #green-circle:hover {
-    background: url("/images/palmtrees/14.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/14.png") no-repeat;
     background-size: cover;
 }
 
 #purple-circle {
     /*border: 1px solid red;*/
-    background: url("/images/palmtrees/11.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/11.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -145,13 +145,13 @@ a {
 }
 
 #purple-circle:hover {
-    background: url("/images/palmtrees/15.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/15.png") no-repeat;
     background-size: cover;
 }
 
 #blue-circle {
     /*border: 1px solid red;*/
-    background: url("/images/palmtrees/10.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/10.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -159,13 +159,13 @@ a {
 }
 
 #blue-circle:hover {
-    background: url("/images/palmtrees/17.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/17.png") no-repeat;
     background-size: cover;
 }
 
 #pink-circle {
     /*border: 1px solid red;*/
-    background: url("/images/palmtrees/12.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/12.png") no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -173,7 +173,7 @@ a {
 }
 
 #pink-circle:hover {
-    background: url("/images/palmtrees/16.png") no-repeat;
+    background: url("http://localhost:5500/images/palmtrees/16.png") no-repeat;
     background-size: cover;
 }
 
