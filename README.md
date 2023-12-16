@@ -16,3 +16,5 @@ Images to follow freehand style drawings.
 Flip text on mouse over without JS.
 
 Add previous projects to showcase, prepare folders and update links.
+
+Update files to add recipes as a link to showcase
