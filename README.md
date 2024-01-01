@@ -1,4 +1,4 @@
-# FirstPortfolio
+# WorkProgress
 Collect projects as learning HTML and CSS
 
 20231207 Set files to compile different exercises while learning HTML and CSS
@@ -18,3 +18,6 @@ Flip text on mouse over without JS.
 Add previous projects to showcase, prepare folders and update links.
 
 Update files to add recipes as a link to showcase
+
+Change project's title to show better understanding of issues and applied learning process
+
